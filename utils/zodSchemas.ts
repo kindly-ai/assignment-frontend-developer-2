@@ -1,7 +1,6 @@
 import { z } from 'zod';
 
 export const inputMessageSchema = z.object({
-    session_id: z.string().optional(),
     text: z.string(),
 });
 
